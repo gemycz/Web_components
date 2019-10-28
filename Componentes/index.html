@@ -1,0 +1,138 @@
+<html>
+    <head>
+       <meta charset="UTF-8">
+        <title>Componentes Web</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300&display=swap" rel="stylesheet">
+        
+
+        <link rel="stylesheet" href="chat.css">
+        <style>
+            .block img, .block-image{
+               float:left;
+            }
+            .clear{
+               clear:both;
+            }
+        </style>
+
+         <script  src="customElement-auto.js"></script>
+
+    </head>
+    <body>
+
+            <script src="components.js"></script>
+         
+            <cabecera-web></cabecera-web>
+    
+
+    <simple-chat>
+      <chat-header>
+         <chat-h-img> <img src = "img/pp.jpg" /> </chat-h-img>
+         <chat-h-name> Gema </chat-h-name>
+      </chat-header>
+      <chat-body>
+         <chat-bubble header = 'Anggie' main = '¡Hola!'> </chat-bubble>
+         <chat-bubble header = 'Josh' main = '¡Hola!'> </chat-bubble>
+      </chat-body>
+      <chat-footer>
+         <div class = "inp-wrapper">
+            <input type = "" class = "send_inp" />
+         </div>
+         <button class = "send"> Enviar </button>
+      </chat-footer>
+   </simple-chat>
+          
+            <!--BOTONES-->
+        <section class="contenedor1">
+            <h2>Botones</h2><flag-icon country="nl"></flag-icon>
+            <hr>
+            <div class="Botones">
+                <div class="boton">
+                    <one-button></one-button>
+                </div>
+                <div class="boton">
+                    <two-button></two-button>
+                </div>
+                <div class="boton">
+                    <three-button></three-button>
+                </div>
+                <div class="boton">
+                    <four-button></four-button>
+                </div>
+                <div class="boton">
+                    <five-button></five-button>
+                </div>
+                <div class="boton">
+                    <six-button></six-button>
+                </div>
+                 <div class="boton">
+                    <seven-button></seven-button>
+                </div>
+                <div class="boton">
+                    <eight-button></eight-button>
+                </div>
+            </div>
+        </section>
+        <!--INPUTS-->
+        <section class="contenedor1">
+            <h2>Inputs</h2>
+            <hr>
+            <div class="Botones">
+                <div class="boton">
+                    <one-switch></one-switch>
+                </div>
+                <div class="boton">
+                    <two-switch></two-switch>
+                </div>
+                <div class="boton">
+                   <one-checkbox></one-checkbox>
+                </div>
+                <div class="boton">
+                    <one-radiobutton></one-radiobutton>
+                </div>
+                <div class="boton">
+                    
+                </div>
+                <div class="boton">
+                   
+                </div>
+                 <div class="boton">
+                   
+                </div>
+                <div class="boton">
+                   
+                </div>
+            </div>
+
+               
+
+   
+        </section>
+
+        <section class="contenedor1">
+            <h2>Img</h2>
+            <hr>
+         <div class="image">
+            <div class="boton">
+
+                <x-image1 data-url="https://pixabay.com/es/illustrations/unicornio-caballo-minimalista-1600762/" ></x-image1>
+            </div>
+            <div class="boton">
+                    
+                <x-image2 data-url="https://www.hiclipart.com/free-transparent-background-png-clipart-iomvh" ></x-image2>
+             </div>
+             <div class="boton">
+                       
+                <x-image3 data-url="https://es.vecteezy.com/arte-vectorial/650958-arte-png-minimalista-creativo-ilustracion-vectorial-png"></x-image3>
+            </div>
+        </div>
+
+        </section>
+
+        <footer>
+            <footer-web></footer-web>
+        </footer>
+    </body>
+</html>
