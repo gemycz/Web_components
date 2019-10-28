@@ -27,7 +27,7 @@
 
  
 
-
+//Componente de imagenes
 
 class Imagen1 extends HTMLElement {
   constructor() {
